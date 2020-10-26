@@ -59,9 +59,10 @@ public class ExcelRead {
 	}
 
     @Test(dataProvider="testDPCheck")
-    public void testDp(String uname,String pwd)
+    public void testDp(String uname,String pwd,String address)
     { 	
       System.out.println("uname"+uname);
       System.out.println("pwd"+pwd);
+      System.out.println("address"+address);
     }
 }

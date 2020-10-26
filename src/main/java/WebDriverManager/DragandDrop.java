@@ -24,6 +24,7 @@ public class DragandDrop {
 	{
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
+		
 		/*driver.navigate().to("http://demoqa.com/text-box");
 		
 		//getattribute
@@ -38,7 +39,7 @@ public class DragandDrop {
 	    
 		*/
 		
-		driver.navigate().to("https://www.olaz.de/de-de/createprofilepage");
+		driver.navigate().to("http://www.google.com");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		WebElement ele = driver.findElement(By.xpath("//input[@data-key='firstName']"));

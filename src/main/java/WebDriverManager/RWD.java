@@ -22,6 +22,7 @@ public class RWD {
 		DesiredCapabilities dc = new DesiredCapabilities();
 		//driver = new RemoteWebDriver(dc);
 		dc.setBrowserName("chrome");
+		//dc.chrome().
 		driver = new RemoteWebDriver(new URL("http://3.16.255.91:4455/wd/hub"),dc);
 		driver.get("https://www.google.com");
 		RWD.takesnap();

@@ -18,8 +18,7 @@ public class TestWDM implements Locators {
 	@Test
 	public void testingWDM() {
 		// TODO Auto-generated method stub
-		
-		
+			
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		
